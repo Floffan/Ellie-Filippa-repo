@@ -2,6 +2,18 @@ import matplotlib.pyplot as plt
 import sympy as sp
 import numpy as np
 
+tal = 9
+
+"""
+Default: Användbara kommandon
+"""
+modulus = 9%2 # ger resten av 2 hela delningar av 9
+
+"""
+Numpy: Användbara kommandon
+"""
+
+roten_ur = np.sqrt(tal)
 
 x = np.arange(2019,2026)
 #x = [2019, 2022, 2023, 2025]
